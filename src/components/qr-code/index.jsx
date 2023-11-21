@@ -5,6 +5,7 @@ import QrCodeImg2 from '../../assets/image-qr-code-v2.png';
 
 export default function CodeQr() {
   const [width, setWidth] = useState(window.innerWidth);
+  const [isFlipped, setIsFlipped] = useState(false);
   const [image, setImage] = useState(width >= 750 ? QrCodeImg1 : QrCodeImg2);
 
   useEffect(() => {
@@ -12,6 +13,7 @@ export default function CodeQr() {
       setWidth(window.innerWidth);
       setImage(width >= 750 ? QrCodeImg1 : QrCodeImg2);
     }
+
     window.addEventListener('resize', handleWindowResize);
 
     return () => {
@@ -19,14 +21,30 @@ export default function CodeQr() {
     };
   }, [width]);
 
+  const handleFlip = () => {
+    setIsFlipped(!isFlipped);
+  };
+
   return (
-    <div className="container-card">
-      <img className="card-qr" src={image} alt="qr-code" />
-      <h2> Improve your front-end skills by building projects </h2>
-      <p>
-        Scan the QR code to visit Frontend Mentor and take your coding skills to
-        the next level
-      </p>
+    <div className={`card-flipper ${isFlipped ? 'flip' : ''}`}>
+      <div className="container-card front" onClick={handleFlip}>
+        {/* Contenu de la face avant */}
+        <img src={image} alt="qr-code" />
+        <h2> Front </h2>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+      <div className="container-card back" onClick={handleFlip}>
+        {/* Contenu de la face arrière */}
+        <img src={image} alt="qr-code" />
+        <h2> Back </h2>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
     </div>
   );
 }
