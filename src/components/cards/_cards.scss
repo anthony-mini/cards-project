@@ -11,10 +11,6 @@
   transform: rotateY(180deg);
 }
 
-.container-card {
-  position: relative;
-}
-
 /* Styles pour la face avant et arrière */
 .front,
 .back {
@@ -29,10 +25,14 @@
 }
 
 /* Style pour le bouton */
+
+.container-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
 button {
-  position: absolute;
-  bottom: 120px;
-  left: 180px;
   padding: 15px 30px;
   background-color: #007bff; /* Choisissez une couleur qui correspond à votre design */
   color: white;

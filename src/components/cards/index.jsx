@@ -47,7 +47,9 @@ export default function CodeQr() {
           </p>
         </div>
       </div>
-      <button onClick={handleFlip}>Show Result</button>
+      <div className="container-button">
+        <button onClick={handleFlip}>Show Result</button>
+      </div>
     </>
   );
 }
