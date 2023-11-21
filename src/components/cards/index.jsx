@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import RepeatLogo from '../../assets/repeat-solid.svg';
 
 import quest from '../../json/quest.json';
 export default function CodeQr() {
@@ -98,7 +99,7 @@ export default function CodeQr() {
           Show Result
         </button>
         <button className="button2" onClick={generateRandomQuestion}>
-          🔄
+          <img className="RepeatLogo" src={RepeatLogo} alt="" srcset="" />
         </button>
       </div>
     </>
