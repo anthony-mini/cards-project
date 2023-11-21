@@ -60,16 +60,18 @@ export default function CodeQr() {
                 {' '}
                 <span>B) </span> {randomQuest.ReponseB}
               </li>
-              <li>
-                {' '}
-                <span>C) </span>
-                {randomQuest.ReponseC}
-              </li>
-              <li>
-                {' '}
-                <span>D) </span>
-                {randomQuest.ReponseD}
-              </li>
+              {/* Condition pour vérifier si la réponse C existe */}
+              {randomQuest.ReponseC && (
+                <li>
+                  <span>C) </span> {randomQuest.ReponseC}
+                </li>
+              )}
+              {/* Condition pour vérifier si la réponse D existe */}
+              {randomQuest.ReponseD && (
+                <li>
+                  <span>D) </span> {randomQuest.ReponseD}
+                </li>
+              )}
             </ul>
           </div>
         </div>
