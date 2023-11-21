@@ -42,7 +42,19 @@ h2 {
   line-height: 28px;
   text-align: center;
   color: #1f314f;
-  margin: 24px 0px 16px 0px;
+  margin: 10px 0px 5px 0px;
+}
+
+ul > li {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: left;
+  letter-spacing: 0.1875px;
+  color: #1f314f;
+  margin: 5px 0;
 }
 
 p {
@@ -54,7 +66,7 @@ p {
   text-align: center;
   letter-spacing: 0.1875px;
   color: #7d889e;
-  margin: 0px 10px;
+  margin: 0 10px 5px 10px;
 }
 
 @media screen and (min-width: map-get($breakpoint, mobile)) {
