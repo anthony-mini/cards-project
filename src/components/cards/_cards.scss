@@ -36,6 +36,8 @@ img {
   display: flex;
   justify-content: center;
   margin-top: 80px;
+  flex-direction: column;
+  gap: 10px;
 }
 
 button {

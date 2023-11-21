@@ -10,7 +10,16 @@ export default function CodeQr() {
   useEffect(() => {
     // Chargement de la question aléatoire une seule fois
     setRandomQuest(quest[Math.floor(Math.random() * quest.length)]);
+
+    generateRandomQuestion();
   }, []);
+
+  const generateRandomQuestion = () => {
+    const newRandomQuest = quest[Math.floor(Math.random() * quest.length)];
+    setRandomQuest(newRandomQuest);
+    setIsFlipped(false); // Réinitialiser la carte à l'état initial
+    setShowAnswer(false); // Réinitialiser l'affichage de la réponse
+  };
 
   const handleFlip = () => {
     setIsFlipped(!isFlipped);
@@ -85,6 +94,7 @@ export default function CodeQr() {
       </div>
       <div className="container-button">
         <button onClick={handleFlip}>Show Result</button>
+        <button onClick={generateRandomQuestion}>New Question</button>
       </div>
     </>
   );
