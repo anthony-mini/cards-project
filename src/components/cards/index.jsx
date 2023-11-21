@@ -33,21 +33,21 @@ export default function CodeQr() {
             <ul>
               <li>
                 {' '}
-                <span>A) </span> {randomQuest.RéponseA}
+                <span>A) </span> {randomQuest.ReponseA}
               </li>
               <li>
                 {' '}
-                <span>B) </span> {randomQuest.RéponseB}
+                <span>B) </span> {randomQuest.ReponseB}
               </li>
               <li>
                 {' '}
                 <span>C) </span>
-                {randomQuest.RéponseC}
+                {randomQuest.ReponseC}
               </li>
               <li>
                 {' '}
                 <span>D) </span>
-                {randomQuest.RéponseD}
+                {randomQuest.ReponseD}
               </li>
             </ul>
           </div>
