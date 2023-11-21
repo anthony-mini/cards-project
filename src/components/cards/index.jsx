@@ -22,16 +22,28 @@ export default function CodeQr() {
   return (
     <>
       <div className={`card-flipper ${isFlipped ? 'flip' : ''}`}>
-        <div className="container-card front">
+        <div
+          className={`container-card front ${
+            randomQuest.image ? '' : 'without-image'
+          }`}
+        >
           {/* Contenu de la face avant */}
           {randomQuest.image && (
             <img src={randomQuest.image} alt={randomQuest.TexteAlternatif} />
           )}
-          <h2>{randomQuest.Titre}</h2>
-          <p>{randomQuest.Description}</p>
-          <div className="bullet-container">
+          <h2 className={`h2 ${randomQuest.image ? '' : 'without-image'}`}>
+            {randomQuest.Titre}
+          </h2>
+          <p className={`p ${randomQuest.image ? '' : 'without-image'}`}>
+            {randomQuest.Description}
+          </p>
+          <div
+            className={`bullet-container ${
+              randomQuest.image ? '' : 'without-image'
+            }`}
+          >
             <ul>
-              <li>
+              <li className={`li ${randomQuest.image ? '' : 'without-image'}`}>
                 {' '}
                 <span>A) </span> {randomQuest.ReponseA}
               </li>
@@ -52,13 +64,23 @@ export default function CodeQr() {
             </ul>
           </div>
         </div>
-        <div className="container-card back">
+        <div
+          className={`container-card back ${
+            randomQuest.image ? '' : 'without-image'
+          }`}
+        >
           {/* Contenu de la face arrière */}
           {randomQuest.image && (
             <img src={randomQuest.image} alt={randomQuest.TexteAlternatif} />
           )}
-          <h2>{randomQuest.Titre}</h2>
-          {showAnswer && <p>Réponse: {randomQuest.BonneReponse}</p>}
+          <h2 className={`h2 ${randomQuest.image ? '' : 'without-image'}`}>
+            {randomQuest.Titre}
+          </h2>
+          {showAnswer && (
+            <p className={`p ${randomQuest.image ? '' : 'without-image'}`}>
+              Réponse: {randomQuest.BonneReponse}
+            </p>
+          )}
         </div>
       </div>
       <div className="container-button">
