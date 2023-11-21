@@ -1,12 +1,13 @@
 import React from 'react';
-import CodeQr from '../../components/qr-code'
-
+import Cards from '../../components/cards';
 
 export default function Home() {
-
-    return(
-        <main>
-            <CodeQr />
-        </main>
-    )
+  return (
+    <>
+      <h1> The Designer's Odyssey</h1>
+      <main>
+        <Cards />
+      </main>
+    </>
+  );
 }

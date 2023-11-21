@@ -26,25 +26,28 @@ export default function CodeQr() {
   };
 
   return (
-    <div className={`card-flipper ${isFlipped ? 'flip' : ''}`}>
-      <div className="container-card front" onClick={handleFlip}>
-        {/* Contenu de la face avant */}
-        <img src={image} alt="qr-code" />
-        <h2> Front </h2>
-        <p>
-          Scan the QR code to visit Frontend Mentor and take your coding skills
-          to the next level
-        </p>
+    <>
+      <div className={`card-flipper ${isFlipped ? 'flip' : ''}`}>
+        <div className="container-card front">
+          {/* Contenu de la face avant */}
+          <img src={image} alt="qr-code" />
+          <h2> Front </h2>
+          <p>
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+        <div className="container-card back">
+          {/* Contenu de la face arrière */}
+          <img src={image} alt="qr-code" />
+          <h2> Back </h2>
+          <p>
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
       </div>
-      <div className="container-card back" onClick={handleFlip}>
-        {/* Contenu de la face arrière */}
-        <img src={image} alt="qr-code" />
-        <h2> Back </h2>
-        <p>
-          Scan the QR code to visit Frontend Mentor and take your coding skills
-          to the next level
-        </p>
-      </div>
-    </div>
+      <button onClick={handleFlip}>Show Result</button>
+    </>
   );
 }
