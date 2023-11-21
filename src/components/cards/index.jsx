@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 
 import quest from '../../json/quest.json';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRepeat } from '@fortawesome/free-solid-svg-icons';
+
 export default function CodeQr() {
   const [isFlipped, setIsFlipped] = useState(false);
   const [randomQuest, setRandomQuest] = useState(null);
@@ -95,8 +98,13 @@ export default function CodeQr() {
         </div>
       </div>
       <div className="container-button">
-        <button onClick={handleFlip}>Show Result</button>
-        <button onClick={generateRandomQuestion}>New Question</button>
+        <button className="button1" onClick={handleFlip}>
+          Show Result
+        </button>
+        <button className="button2" onClick={generateRandomQuestion}>
+          {' '}
+          <FontAwesomeIcon icon={faRepeat} />
+        </button>
       </div>
     </>
   );

@@ -36,11 +36,11 @@ img {
   display: flex;
   justify-content: center;
   margin-top: 80px;
-  flex-direction: column;
+  flex-direction: row;
   gap: 10px;
 }
 
-button {
+.button1 {
   padding: 15px 30px;
   background-color: #007bff; /* Choisissez une couleur qui correspond à votre design */
   color: white;
@@ -48,6 +48,20 @@ button {
   border-radius: 15px;
   font-size: 20px;
   font-weight: 500;
+  width: 65%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button2 {
+  padding: 15px 30px;
+  background-color: #007bff; /* Choisissez une couleur qui correspond à votre design */
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 25%;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
