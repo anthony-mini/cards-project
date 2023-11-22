@@ -32,6 +32,9 @@ export default function CodeQr() {
   return (
     <>
       <div className={`card-flipper ${isFlipped ? 'flip' : ''}`}>
+        <div className={`level-cards ${isFlipped ? 'flip' : ''}`}>
+          {randomQuest.Difficulte}
+        </div>
         <div
           className={`container-card front ${
             randomQuest.image ? '' : 'without-image'
@@ -58,24 +61,29 @@ export default function CodeQr() {
                 {' '}
                 <span>A) </span> {randomQuest.ReponseA}
               </li>
-              <li>
+              <li className={`li ${randomQuest.image ? '' : 'without-image'}`}>
                 {' '}
                 <span>B) </span> {randomQuest.ReponseB}
               </li>
               {/* Condition pour vérifier si la réponse C existe */}
               {randomQuest.ReponseC && (
-                <li>
+                <li
+                  className={`li ${randomQuest.image ? '' : 'without-image'}`}
+                >
                   <span>C) </span> {randomQuest.ReponseC}
                 </li>
               )}
               {/* Condition pour vérifier si la réponse D existe */}
               {randomQuest.ReponseD && (
-                <li>
+                <li
+                  className={`li ${randomQuest.image ? '' : 'without-image'}`}
+                >
                   <span>D) </span> {randomQuest.ReponseD}
                 </li>
               )}
             </ul>
           </div>
+          <div className="footer-cards"> The designer's Odyssey</div>
         </div>
         <div
           className={`container-card back ${

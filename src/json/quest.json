@@ -25,7 +25,7 @@
     "ReponseD": "TravelBuddy",
     "BonneReponse": "A",
     "TexteAlternatif": "Image inspirante sur la créativité.",
-    "image": ""
+    "image": "https://raw.githubusercontent.com/anthony-mini/cards-project/master/src/assets/apyfun.png"
   },
   {
     "Difficulte": "Intermédiaire",
@@ -165,7 +165,7 @@
     "ReponseD": "Contraste, Mouvement, Jeu, Nature",
     "BonneReponse": "A",
     "TexteAlternatif": "Image inspirante sur la créativité.",
-    "image": "https://raw.githubusercontent.com/anthony-mini/cards-project/master/src/assets/apyfun.png"
+    "image": ""
   },
   {
     "Difficulte": "Avancée",
