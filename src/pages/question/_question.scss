@@ -24,11 +24,12 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../../assets/background.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url('../../assets/background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.75; /* 30% opacity */
+    opacity: 0.8; /* 30% opacity */
     z-index: -1;
   }
 }
