@@ -1,11 +1,10 @@
 import React from 'react';
-import Cards from '../../components/cards';
 
 export default function Home() {
   return (
     <>
       <main>
-        <Cards />
+        <h1>Home</h1>
       </main>
     </>
   );
