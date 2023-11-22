@@ -1,0 +1,138 @@
+.body-quest {
+  // background: black;
+  // height: 90vh;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // flex-direction: column;
+  // margin: 0;
+
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url('../../assets/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8; /* 30% opacity */
+    z-index: -1;
+  }
+}
+
+.container-card {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 320px;
+  height: 497px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px;
+  -webkit-box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.25);
+}
+
+.card-qr {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 28px;
+  text-align: center;
+  color: #1f314f;
+  margin: 30px 0px 40px 0px;
+}
+
+.h2 {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #1f314f;
+  margin: 10px 0px 10px 0px;
+
+  &.without-image {
+    margin: 30px 0px 10px 0px;
+  }
+}
+
+ul > li {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: left;
+  letter-spacing: 0.1875px;
+  color: #1f314f;
+  margin: 5px 0;
+}
+
+.p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1875px;
+  color: #7d889e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px 5px 10px;
+
+  &.without-image {
+    margin: 20px 0px 20px 0px;
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: map-get($breakpoint, mobile)) {
+  .card-qr {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+  }
+}
+
+.backward-button {
+  padding: 15px 30px;
+  background-color: #3158a5; /* Choisissez une couleur qui correspond à votre design */
+  border: none;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.backward {
+  width: 30px;
+  height: 30px;
+  border-radius: 0;
+}

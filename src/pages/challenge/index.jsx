@@ -1,7 +1,7 @@
 import React from 'react';
 import Cards from '../../components/cards-challenge';
 
-export default function Question() {
+export default function Challenge() {
   return (
     <body className="body-quest">
       <main>
