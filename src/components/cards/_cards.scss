@@ -14,7 +14,7 @@
 img {
   border-radius: 12px;
   width: 100%;
-  height: 50%;
+  height: 40%;
   object-fit: cover;
 }
 
@@ -42,7 +42,7 @@ img {
 
 .button1 {
   padding: 15px 30px;
-  background-color: #007bff; /* Choisissez une couleur qui correspond à votre design */
+  background-color: #3158a5; /* Choisissez une couleur qui correspond à votre design */
   color: white;
   border: none;
   border-radius: 15px;
@@ -55,7 +55,7 @@ img {
 
 .button2 {
   padding: 15px 30px;
-  background-color: #007bff; /* Choisissez une couleur qui correspond à votre design */
+  background-color: #3158a5; /* Choisissez une couleur qui correspond à votre design */
   color: white;
   border: none;
   border-radius: 15px;
@@ -70,7 +70,7 @@ img {
 }
 
 button:hover {
-  background-color: #0056b3; /* Une teinte légèrement plus foncée pour l'effet hover */
+  background-color: #2850a1; /* Une teinte légèrement plus foncée pour l'effet hover */
 }
 
 .back {
@@ -81,4 +81,10 @@ button:hover {
   width: 20px;
   height: 20px;
   fill: white;
+}
+
+.logo-odyssey {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
 }

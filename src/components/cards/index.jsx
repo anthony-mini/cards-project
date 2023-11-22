@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import RepeatLogo from '../../assets/repeat-solid.svg';
+import Logo from '../../assets/logo.svg';
 
 import quest from '../../json/quest.json';
 export default function CodeQr() {
@@ -45,6 +46,7 @@ export default function CodeQr() {
           </h2>
           <p className={`p ${randomQuest.image ? '' : 'without-image'}`}>
             {randomQuest.Description}
+            <img src={Logo} alt="" className="logo-odyssey" />
           </p>
           <div
             className={`bullet-container ${
