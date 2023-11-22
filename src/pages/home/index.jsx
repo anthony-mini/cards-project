@@ -9,9 +9,20 @@ export default function Home() {
           <img className="header-logo" src={Logo} alt="" />
           <h1 className="header-title">The Designer's Odyssey</h1>
         </header>
-        <h1>Home</h1>
-        <a href="/question">question</a> <br />
-        <a href="/challenges">challenges</a>
+        <section className="introduction">
+          <h2>
+            Welcome to <br /> The Designer's Odyssey!
+          </h2>
+          <p>Select the card type and answer the questions with enthusiasm! </p>
+        </section>
+        <section className="container-deck">
+          <button className="deck-button">
+            <a href="/question">question</a>
+          </button>
+          <button className="deck-button">
+            <a href="/challenges">challenges</a>
+          </button>
+        </section>
       </main>
     </>
   );

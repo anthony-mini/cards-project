@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import RepeatLogo from '../../assets/repeat-solid.svg';
 import Logo from '../../assets/logo.svg';
+import BackWard from '../../assets/backward-solid.svg';
 
 import quest from '../../json/quest.json';
 export default function CodeQr() {
@@ -31,6 +32,11 @@ export default function CodeQr() {
 
   return (
     <>
+      <button className="backward-button">
+        <a href="/">
+          <img className="backward" src={BackWard} alt="" />
+        </a>
+      </button>
       <div className={`card-flipper ${isFlipped ? 'flip' : ''}`}>
         <div className={`level-cards ${isFlipped ? 'flip' : ''}`}>
           {randomQuest.Difficulte}
