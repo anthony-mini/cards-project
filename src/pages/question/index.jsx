@@ -1,5 +1,5 @@
 import React from 'react';
-import Cards from '../../components/cards';
+import Cards from '../../components/cards-quest';
 import BackWard from '../../assets/backward-solid.svg';
 
 export default function Question() {
