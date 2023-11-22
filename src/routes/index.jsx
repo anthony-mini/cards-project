@@ -11,8 +11,8 @@ function App() {
     <Router>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/question" element={<Question />} />
-        <Route exact path="/*" element={<Error />} />
+        <Route path="/question" element={<Question />} />
+        <Route path="/*" element={<Error />} />
       </Routes>
     </Router>
   );
