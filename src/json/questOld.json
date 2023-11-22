@@ -11,8 +11,7 @@
     "ReponseD": "Rose, Marron, Crème",
     "BonneReponse": "B",
     "TexteAlternatif": "Image abstraite liée au design.",
-    "image": "",
-    "Explanation": "La réponse B (Jaune, Noir, Blanc) est choisie pour sa compatibilité avec les principes de l'harmonie des couleurs, essentielle en design web."
+    "image": ""
   },
   {
     "Difficulte": "Débutant",
@@ -26,8 +25,7 @@
     "ReponseD": "TravelBuddy",
     "BonneReponse": "A",
     "TexteAlternatif": "Image inspirante sur la créativité.",
-    "image": "https://raw.githubusercontent.com/anthony-mini/cards-project/master/src/assets/apyfun.png",
-    "Explanation": "La réponse A (AppyFun) se distingue par son originalité et son adaptation au contexte demandé, reflétant une pensée créative essentielle dans ce domaine."
+    "image": "https://raw.githubusercontent.com/anthony-mini/cards-project/master/src/assets/apyfun.png"
   },
   {
     "Difficulte": "Intermédiaire",
@@ -41,8 +39,7 @@
     "ReponseD": "Icône de Musique",
     "BonneReponse": "C",
     "TexteAlternatif": "Image abstraite liée au design.",
-    "image": "",
-    "Explanation": "L'icône Icône de Partage est la bonne réponse car elle offre une représentation visuelle claire et pertinente pour la fonctionnalité spécifiée, conforme aux principes de design d'interface utilisateur."
+    "image": ""
   },
   {
     "Difficulte": "Débutant",
@@ -56,8 +53,7 @@
     "ReponseD": "Snapchat",
     "BonneReponse": "D",
     "TexteAlternatif": "Graphique conceptuel pour l'analyse de design.",
-    "image": "https://raw.githubusercontent.com/anthony-mini/cards-project/master/src/assets/snapchat.png",
-    "Explanation": "La réponse D (Snapchat) est correcte car elle démontre une compréhension claire du sujet de l'analyse, en l'occurrence l'identification correcte d'un logo d'application célèbre."
+    "image": "https://raw.githubusercontent.com/anthony-mini/cards-project/master/src/assets/snapchat.png"
   },
   {
     "Difficulte": "Débutant",
@@ -71,8 +67,7 @@
     "ReponseD": "Musique",
     "BonneReponse": "B",
     "TexteAlternatif": "Esquisse vague d'une interface utilisateur.",
-    "image": "",
-    "Explanation": "La réponse B (Chat) est pertinente car elle met en évidence une fonctionnalité clé de l'application, soulignant l'importance de la correspondance entre fonctionnalités et interface utilisateur."
+    "image": ""
   },
   {
     "Difficulte": "Intermédiaire",
@@ -86,8 +81,7 @@
     "ReponseD": "Helvetica",
     "BonneReponse": "D",
     "TexteAlternatif": "Visuel flou de différentes polices.",
-    "image": "",
-    "Explanation": "Choisir Helvetica comme police pour le titre est judicieux car elle convient au ton et au style du contenu, démontrant une compréhension de l'importance de la typographie en design."
+    "image": ""
   },
   {
     "Difficulte": "Intermédiaire",
@@ -101,8 +95,7 @@
     "ReponseD": "En haut à gauche",
     "BonneReponse": "A",
     "TexteAlternatif": "Esquisse vague d'une interface utilisateur.",
-    "image": "",
-    "Explanation": "La réponse A (En haut à droite) est pertinente car elle met en évidence une fonctionnalité clé de l'application, soulignant l'importance de la correspondance entre fonctionnalités et interface utilisateur."
+    "image": ""
   },
   {
     "Difficulte": "Avancé",
@@ -116,8 +109,7 @@
     "ReponseD": "Design démodé",
     "BonneReponse": "B",
     "TexteAlternatif": "Image générique liée au sujet.",
-    "image": "",
-    "Explanation": ""
+    "image": ""
   },
   {
     "Difficulte": "Intermédiaire",
@@ -131,8 +123,7 @@
     "ReponseD": "Intégration sociale",
     "BonneReponse": "C",
     "TexteAlternatif": "Image générique sur la planification et l'organisation.",
-    "image": "",
-    "Explanation": ""
+    "image": ""
   },
   {
     "Difficulte": "Débutant",
@@ -146,8 +137,7 @@
     "ReponseD": "Pas de réponse",
     "BonneReponse": "A",
     "TexteAlternatif": "Graphique conceptuel pour l'analyse de design.",
-    "image": "",
-    "Explanation": "La réponse A (Bon) est correcte car elle démontre une compréhension claire du sujet de l'analyse, en l'occurrence l'identification correcte d'un logo d'application célèbre."
+    "image": ""
   },
   {
     "Difficulte": "Débutant",
@@ -161,8 +151,7 @@
     "ReponseD": "Times New Roman",
     "BonneReponse": "A",
     "TexteAlternatif": "Visuel flou de différentes polices.",
-    "image": "",
-    "Explanation": "Choisir Futura comme police pour le titre est judicieux car elle convient au ton et au style du contenu, démontrant une compréhension de l'importance de la typographie en design."
+    "image": ""
   },
   {
     "Difficulte": "Débutant",
@@ -176,8 +165,7 @@
     "ReponseD": "Contraste, Mouvement, Jeu, Nature",
     "BonneReponse": "A",
     "TexteAlternatif": "Image inspirante sur la créativité.",
-    "image": "",
-    "Explanation": "La réponse A (Cyan, Magenta, Jaune, Noir) se distingue par son originalité et son adaptation au contexte demandé, reflétant une pensée créative essentielle dans ce domaine."
+    "image": ""
   },
   {
     "Difficulte": "Avancée",
@@ -191,8 +179,7 @@
     "ReponseD": "Massimo Vignelli",
     "BonneReponse": "A",
     "TexteAlternatif": "Illustration culturelle en rapport avec le design.",
-    "image": "",
-    "Explanation": ""
+    "image": ""
   },
   {
     "Difficulte": "Intermédiaire",
@@ -206,8 +193,7 @@
     "ReponseD": "Sans-serif est plus formel que serif",
     "BonneReponse": "A",
     "TexteAlternatif": "Visuel flou de différentes polices.",
-    "image": "",
-    "Explanation": "Choisir Serif a des empattements, sans-serif n'en a pas comme police pour le titre est judicieux car elle convient au ton et au style du contenu, démontrant une compréhension de l'importance de la typographie en design."
+    "image": ""
   },
   {
     "Difficulte": "Débutant",
@@ -221,8 +207,7 @@
     "ReponseD": "Utiliser des couleurs vives et contrastées",
     "BonneReponse": "B",
     "TexteAlternatif": "Image conceptuelle d'un design minimaliste",
-    "image": "",
-    "Explanation": ""
+    "image": ""
   },
   {
     "Difficulte": "Intermédiaire",
@@ -236,8 +221,7 @@
     "ReponseD": "3D et réalité augmentée",
     "BonneReponse": "D",
     "TexteAlternatif": "Image illustrant la tendance de design populaire en 2023",
-    "image": "",
-    "Explanation": ""
+    "image": ""
   },
   {
     "Difficulte": "Débutant",
@@ -251,8 +235,7 @@
     "ReponseD": "Couleurs néon lumineuses",
     "BonneReponse": "B",
     "TexteAlternatif": "Image d'une interface mobile conviviale",
-    "image": "",
-    "Explanation": "La réponse B (Boutons larges et accessibles) est pertinente car elle met en évidence une fonctionnalité clé de l'application, soulignant l'importance de la correspondance entre fonctionnalités et interface utilisateur."
+    "image": ""
   },
   {
     "Difficulte": "Intermédiaire",
@@ -266,8 +249,7 @@
     "ReponseD": "Suivre strictement un agenda",
     "BonneReponse": "C",
     "TexteAlternatif": "Illustration d'une session de brainstorming créatif",
-    "image": "",
-    "Explanation": "La réponse C (Mind mapping) se distingue par son originalité et son adaptation au contexte demandé, reflétant une pensée créative essentielle dans ce domaine."
+    "image": ""
   },
   {
     "Difficulte": "Avancé",
@@ -281,8 +263,7 @@
     "ReponseD": "Charles Eames",
     "BonneReponse": "A",
     "TexteAlternatif": "Portrait stylisé du pionnier du design industriel",
-    "image": "",
-    "Explanation": ""
+    "image": ""
   },
   {
     "Difficulte": "Débutant",
@@ -296,8 +277,7 @@
     "ReponseD": "Blackletter",
     "BonneReponse": "C",
     "TexteAlternatif": "Exemple de contenu en ligne avec une police lisible",
-    "image": "",
-    "Explanation": "Choisir Verdana comme police pour le titre est judicieux car elle convient au ton et au style du contenu, démontrant une compréhension de l'importance de la typographie en design."
+    "image": ""
   },
   {
     "Difficulte": "Intermédiaire",
@@ -311,8 +291,7 @@
     "ReponseD": "Priorité à l'esthétique sur la fonction",
     "BonneReponse": "B",
     "TexteAlternatif": "Illustration d'un produit conçu de manière écologique",
-    "image": "",
-    "Explanation": ""
+    "image": ""
   },
   {
     "Difficulte": "Débutant",
@@ -326,8 +305,7 @@
     "ReponseD": "Ignorer l'espace négatif",
     "BonneReponse": "C",
     "TexteAlternatif": "Illustration représentant l'équilibre et l'alignement dans le design",
-    "image": "",
-    "Explanation": ""
+    "image": ""
   },
   {
     "Difficulte": "Intermédiaire",
@@ -341,8 +319,7 @@
     "ReponseD": "Aucun impact significatif",
     "BonneReponse": "C",
     "TexteAlternatif": "Exemple de bonne et mauvaise utilisation de la typographie dans le design",
-    "image": "",
-    "Explanation": "Choisir Pour améliorer la lisibilité et transmettre l'ambiance comme police pour le titre est judicieux car elle convient au ton et au style du contenu, démontrant une compréhension de l'importance de la typographie en design."
+    "image": ""
   },
   {
     "Difficulte": "Avancé",
@@ -356,8 +333,7 @@
     "ReponseD": "Respecter les délais serrés",
     "BonneReponse": "B",
     "TexteAlternatif": "Illustration symbolisant la recherche d'inspiration créative",
-    "image": "",
-    "Explanation": "La réponse B (Trouver l'inspiration) se distingue par son originalité et son adaptation au contexte demandé, reflétant une pensée créative essentielle dans ce domaine."
+    "image": ""
   },
   {
     "Difficulte": "Débutant",
@@ -371,8 +347,7 @@
     "ReponseD": "UI est plus technique que UX",
     "BonneReponse": "B",
     "TexteAlternatif": "Comparaison visuelle entre UX et UI Design",
-    "image": "",
-    "Explanation": "La réponse B (UI est l'aspect visuel, UX est l'expérience globale) est pertinente car elle met en évidence une fonctionnalité clé de l'application, soulignant l'importance de la correspondance entre fonctionnalités et interface utilisateur."
+    "image": ""
   },
   {
     "Difficulte": "Intermédiaire",
@@ -386,8 +361,7 @@
     "ReponseD": "Usage réduit des images",
     "BonneReponse": "B",
     "TexteAlternatif": "Chronologie visuelle de l'évolution du design graphique",
-    "image": "",
-    "Explanation": ""
+    "image": ""
   },
   {
     "Difficulte": "Débutant",
@@ -401,8 +375,7 @@
     "ReponseD": "Ignorer les tendances",
     "BonneReponse": "C",
     "TexteAlternatif": "Graphique représentant l'analyse des tendances en design",
-    "image": "",
-    "Explanation": "La réponse C (Études de marché approfondies) est correcte car elle démontre une compréhension claire du sujet de l'analyse, en l'occurrence l'identification correcte d'un logo d'application célèbre."
+    "image": ""
   },
   {
     "Difficulte": "Intermédiaire",
@@ -416,8 +389,7 @@
     "ReponseD": "Seulement pour le design de produits",
     "BonneReponse": "B",
     "TexteAlternatif": "Illustration mettant en évidence la durabilité dans le design moderne",
-    "image": "",
-    "Explanation": ""
+    "image": ""
   },
   {
     "Difficulte": "Avancé",
@@ -431,8 +403,7 @@
     "ReponseD": "Changer de style à chaque projet",
     "BonneReponse": "C",
     "TexteAlternatif": "Visuel représentant l'équilibre entre innovation et tradition dans le design",
-    "image": "",
-    "Explanation": "La réponse C (Combiner des éléments traditionnels et modernes) se distingue par son originalité et son adaptation au contexte demandé, reflétant une pensée créative essentielle dans ce domaine."
+    "image": ""
   },
   {
     "Difficulte": "Débutant",
@@ -446,8 +417,7 @@
     "ReponseD": "Cela n'affecte que quelques utilisateurs",
     "BonneReponse": "C",
     "TexteAlternatif": "Exemple d'interface accessible",
-    "image": "",
-    "Explanation": "La réponse C (Pour permettre à tous les utilisateurs d'accéder aux informations) est pertinente car elle met en évidence une fonctionnalité clé de l'application, soulignant l'importance de la correspondance entre fonctionnalités et interface utilisateur."
+    "image": ""
   },
   {
     "Difficulte": "Débutant",
@@ -461,8 +431,7 @@
     "ReponseD": "",
     "BonneReponse": "B",
     "TexteAlternatif": "Illustration d'objets rouges",
-    "image": "",
-    "Explanation": "La réponse B (FAUX) est choisie pour sa compatibilité avec les principes de l'harmonie des couleurs, essentielle en design web."
+    "image": ""
   },
   {
     "Difficulte": "Intermédiaire",
@@ -476,8 +445,7 @@
     "ReponseD": "",
     "BonneReponse": "B",
     "TexteAlternatif": "Exemple de texte en Comic Sans",
-    "image": "",
-    "Explanation": "Choisir FAUX comme police pour le titre est judicieux car elle convient au ton et au style du contenu, démontrant une compréhension de l'importance de la typographie en design."
+    "image": ""
   },
   {
     "Difficulte": "Avancé",
@@ -491,8 +459,7 @@
     "ReponseD": "",
     "BonneReponse": "B",
     "TexteAlternatif": "Comparaison d'interfaces UX",
-    "image": "",
-    "Explanation": "La réponse B (FAUX) est pertinente car elle met en évidence une fonctionnalité clé de l'application, soulignant l'importance de la correspondance entre fonctionnalités et interface utilisateur."
+    "image": ""
   },
   {
     "Difficulte": "Débutant",
@@ -506,8 +473,7 @@
     "ReponseD": "",
     "BonneReponse": "B",
     "TexteAlternatif": "Illustration liée à Leonardo da Vinci",
-    "image": "",
-    "Explanation": ""
+    "image": ""
   },
   {
     "Difficulte": "Intermédiaire",
@@ -521,8 +487,7 @@
     "ReponseD": "",
     "BonneReponse": "B",
     "TexteAlternatif": "Exemple de design minimaliste",
-    "image": "",
-    "Explanation": "La réponse B (FAUX) est choisie pour sa compatibilité avec les principes de l'harmonie des couleurs, essentielle en design web."
+    "image": ""
   },
   {
     "Difficulte": "Débutant",
@@ -536,8 +501,7 @@
     "ReponseD": "",
     "BonneReponse": "B",
     "TexteAlternatif": "Exemple de texte en Helvetica",
-    "image": "",
-    "Explanation": "Choisir FAUX comme police pour le titre est judicieux car elle convient au ton et au style du contenu, démontrant une compréhension de l'importance de la typographie en design."
+    "image": ""
   },
   {
     "Difficulte": "Avancé",
@@ -551,8 +515,7 @@
     "ReponseD": "",
     "BonneReponse": "B",
     "TexteAlternatif": "Schéma du processus de design thinking",
-    "image": "",
-    "Explanation": "La réponse B (FAUX) est correcte car elle démontre une compréhension claire du sujet de l'analyse, en l'occurrence l'identification correcte d'un logo d'application célèbre."
+    "image": ""
   },
   {
     "Difficulte": "Intermédiaire",
@@ -566,8 +529,7 @@
     "ReponseD": "",
     "BonneReponse": "B",
     "TexteAlternatif": "Exemple d'interface accessible",
-    "image": "",
-    "Explanation": "La réponse B (FAUX) est pertinente car elle met en évidence une fonctionnalité clé de l'application, soulignant l'importance de la correspondance entre fonctionnalités et interface utilisateur."
+    "image": ""
   },
   {
     "Difficulte": "Débutant",
@@ -581,7 +543,6 @@
     "ReponseD": "",
     "BonneReponse": "B",
     "TexteAlternatif": "Scène de brainstorming en groupe",
-    "image": "",
-    "Explanation": "La réponse B (FAUX) se distingue par son originalité et son adaptation au contexte demandé, reflétant une pensée créative essentielle dans ce domaine."
+    "image": ""
   }
 ]

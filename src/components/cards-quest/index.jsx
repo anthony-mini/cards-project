@@ -104,9 +104,12 @@ export default function CodeQr() {
             {randomQuest.Titre}
           </h2>
           {showAnswer && (
-            <p className={`p ${randomQuest.image ? '' : 'without-image'}`}>
-              Réponse: {randomQuest.BonneReponse}
-            </p>
+            <>
+              <p className={`p ${randomQuest.image ? '' : 'without-image'}`}>
+                Réponse: {randomQuest.BonneReponse}
+              </p>
+              <p>{randomQuest.Explanation}</p>
+            </>
           )}
         </div>
       </div>
