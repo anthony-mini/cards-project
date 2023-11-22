@@ -3,7 +3,7 @@ import Logo from '../../assets/logo.svg';
 
 export default function Home() {
   return (
-    <>
+    <body className="body-home">
       <main>
         <header className="header-container">
           <img className="header-logo" src={Logo} alt="" />
@@ -24,6 +24,6 @@ export default function Home() {
           </button>
         </section>
       </main>
-    </>
+    </body>
   );
 }

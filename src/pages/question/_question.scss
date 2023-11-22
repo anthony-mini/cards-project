@@ -1,11 +1,36 @@
-body {
-  background: $light-gray;
+.body-quest {
+  // background: black;
+  // height: 90vh;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // flex-direction: column;
+  // margin: 0;
+
+  position: relative;
+  margin: 0;
+  padding: 0;
   height: 90vh;
+  overflow: hidden;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0;
+  justify-content: center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../assets/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.75; /* 30% opacity */
+    z-index: -1;
+  }
 }
 
 .container-card {

@@ -89,7 +89,6 @@ export default function CodeQr() {
               )}
             </ul>
           </div>
-          <div className="footer-cards"> The designer's Odyssey</div>
         </div>
         <div
           className={`container-card back ${
