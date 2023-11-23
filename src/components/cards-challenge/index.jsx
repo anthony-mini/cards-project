@@ -58,38 +58,11 @@ export default function CodeQr() {
             {randomQuest.Description}
             <img src={Logo} alt="" className="logo-odyssey" />
           </p>
-          <div
-            className={`bullet-container ${
-              randomQuest.image ? '' : 'without-image'
-            }`}
-          >
-            <ul>
-              <li className={`li ${randomQuest.image ? '' : 'without-image'}`}>
-                {' '}
-                <span>A) </span> {randomQuest.ReponseA}
-              </li>
-              <li className={`li ${randomQuest.image ? '' : 'without-image'}`}>
-                {' '}
-                <span>B) </span> {randomQuest.ReponseB}
-              </li>
-              {/* Condition pour vérifier si la réponse C existe */}
-              {randomQuest.ReponseC && (
-                <li
-                  className={`li ${randomQuest.image ? '' : 'without-image'}`}
-                >
-                  <span>C) </span> {randomQuest.ReponseC}
-                </li>
-              )}
-              {/* Condition pour vérifier si la réponse D existe */}
-              {randomQuest.ReponseD && (
-                <li
-                  className={`li ${randomQuest.image ? '' : 'without-image'}`}
-                >
-                  <span>D) </span> {randomQuest.ReponseD}
-                </li>
-              )}
-            </ul>
-          </div>
+          <p className="p p-challenge">
+            {' '}
+            <b> Material:</b> {randomQuest.Materiel}
+          </p>
+          <p className="h1 isCollectif"> {randomQuest.IsCollectif} </p>
         </div>
         <div
           className={`container-card back ${
@@ -106,7 +79,7 @@ export default function CodeQr() {
           {showAnswer && (
             <>
               <p className={`p ${randomQuest.image ? '' : 'without-image'}`}>
-                Réponse: {randomQuest.BonneReponse}
+                <b>Win Condition:</b> {randomQuest.WinCondition}
               </p>
               <p>{randomQuest.Explanation}</p>
             </>
@@ -114,10 +87,10 @@ export default function CodeQr() {
         </div>
       </div>
       <div className="container-button">
-        <button className="button1" onClick={handleFlip}>
-          Show Result
+        <button className="button1 challenge" onClick={handleFlip}>
+          Win Condition
         </button>
-        <button className="button2" onClick={generateRandomQuestion}>
+        <button className="button2 challenge" onClick={generateRandomQuestion}>
           <img className="RepeatLogo" src={RepeatLogo} alt="" srcset="" />
         </button>
       </div>

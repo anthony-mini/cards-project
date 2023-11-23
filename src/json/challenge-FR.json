@@ -1,0 +1,92 @@
+[
+  {
+    "Difficulte": "Level 2",
+    "Domaine": "Imitation",
+    "Titre": "Imitation de Designer",
+    "Description": "Imitez un designer célèbre ou un style de design en 30 secondes.",
+    "WinCondition": "Si quelqu'un devine correctement, vous gagnez.",
+    "IsCollectif": "Solo",
+    "Materiel": "Aucun"
+  },
+  {
+    "Difficulte": "Level 1",
+    "Domaine": "Dessin",
+    "Titre": "Logo Rapide",
+    "Description": "Dessinez rapidement un logo célèbre pour que les autres joueurs puissent le deviner.",
+    "WinCondition": "Le logo le plus reconnaissable gagne.",
+    "IsCollectif": "Collectif",
+    "Materiel": "Papier, crayon"
+  },
+  {
+    "Difficulte": "Level 3",
+    "Domaine": "Dessin",
+    "Titre": "Logo les Yeux Fermés",
+    "Description": "Dessinez rapidement un logo célèbre les yeux fermés.",
+    "WinCondition": "Le dessin le plus précis gagne.",
+    "IsCollectif": "Collectif",
+    "Materiel": "Papier, crayon"
+  },
+  {
+    "Difficulte": "Level 2",
+    "Domaine": "Créativité",
+    "Titre": "Titre Accrocheur",
+    "Description": "Trouvez un titre accrocheur pour une page web fictive en 30 secondes.",
+    "WinCondition": "Le titre le plus créatif et approprié gagne.",
+    "IsCollectif": "Solo",
+    "Materiel": "Aucun"
+  },
+  {
+    "Difficulte": "Level 1",
+    "Domaine": "Observation",
+    "Titre": "Chasse au Logo",
+    "Description": "Trouvez et photographiez le plus de logos différents dans votre environnement en 45 secondes",
+    "WinCondition": "Celui qui trouve le plus de logos uniques gagne.",
+    "IsCollectif": "Collectif",
+    "Materiel": "Smartphone"
+  },
+  {
+    "Difficulte": "Level 3",
+    "Domaine": "Imitation",
+    "Titre": "Je suis la Police",
+    "Description": "Imitez une police de caractères avec votre corps.",
+    "WinCondition": "Si un autre joueur devine quelle police vous imitez, vous gagnez.",
+    "IsCollectif": "Solo",
+    "Materiel": "Aucun"
+  },
+  {
+    "Difficulte": "Level 2",
+    "Domaine": "Imitation",
+    "Titre": "Sentimentale",
+    "Description": "Exprimez une émotion ou un sentiment uniquement par des gestes",
+    "WinCondition": "L'expression la plus claire et touchante gagne.",
+    "IsCollectif": "Collectif",
+    "Materiel": "Aucun"
+  },
+  {
+    "Difficulte": "Level 3",
+    "Domaine": "Creativité",
+    "Titre": "Ombre Chinoise",
+    "Description": "Avec le joeur de gauche, créez une forme, un objet ou un animal avec vos mains.",
+    "WinCondition": "Faite deviner votre création à un autre joueur. Si il devine, vous gagnez.",
+    "IsCollectif": "Duo",
+    "Materiel": "Aucun"
+  },
+  {
+    "Difficulte": "Level 3",
+    "Domaine": "Couleur",
+    "Titre": "Couleur du Jour",
+    "Description": "Choississez une couleur et mimez des objets ou concepts du quotidien qui sont de cette couleur.",
+    "WinCondition": "Si un autre joueur devine la couleur, vous gagnez.",
+    "IsCollectif": "Solo",
+    "Materiel": "Aucun"
+  },
+  {
+    "Difficulte": "Level 1",
+    "Domaine": "Creativité",
+    "Titre": "Fait moi rire",
+    "Description": "Inventez un slogant pour un produit fictif qui fera rire les autres joueurs",
+    "WinCondition": "Un rire, un sourir, et c'est gagné!",
+    "IsCollectif": "Solo",
+    "Materiel": "Aucun"
+  }
+]
