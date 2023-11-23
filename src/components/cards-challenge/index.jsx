@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import RepeatLogo from '../../assets/repeat-solid.svg';
 import Logo from '../../assets/logo.svg';
 import BackWard from '../../assets/backward-solid.svg';
+import LogoTxt from '../../assets/logo-txt.svg';
 
 import challenge from '../../json/challenge.json';
 export default function CodeQr() {
@@ -84,6 +85,7 @@ export default function CodeQr() {
               <p>{randomQuest.Explanation}</p>
             </>
           )}
+          <img className="logo-Odyssey" src={LogoTxt} alt="" />
         </div>
       </div>
       <div className="container-button">

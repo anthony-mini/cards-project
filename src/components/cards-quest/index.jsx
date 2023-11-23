@@ -3,6 +3,8 @@ import RepeatLogo from '../../assets/repeat-solid.svg';
 import Logo from '../../assets/logo.svg';
 import BackWard from '../../assets/backward-solid.svg';
 
+import LogoTxt from '../../assets/logo-txt.svg';
+
 import quest from '../../json/quest.json';
 export default function CodeQr() {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -110,6 +112,7 @@ export default function CodeQr() {
               <p>{randomQuest.Explanation}</p>
             </>
           )}
+          <img className="logo-Odyssey" src={LogoTxt} alt="" />
         </div>
       </div>
       <div className="container-button">
