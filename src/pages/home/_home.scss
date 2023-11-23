@@ -1,11 +1,26 @@
 .body-home {
-  background: $light-gray;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   margin: 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url('../../assets/home-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8; /* 30% opacity */
+    z-index: -1;
+  }
 }
 
 .container-card {
@@ -32,7 +47,7 @@ h1 {
   font-size: 26px;
   line-height: 28px;
   text-align: center;
-  color: #1f314f;
+  color: #ffffff;
   margin: 30px 0px 40px 0px;
 }
 
@@ -183,29 +198,24 @@ ul > li {
 
 .header-title {
   margin-top: 40px;
+  font-size: 20px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
 }
 
 .introduction {
   display: flex;
   flex-direction: column;
-  margin: 50px 20px;
+  margin: 20px 10px;
   align-content: center;
   align-items: center;
 
-  & > h2 {
-    text-align: center;
-    margin: 80px 0px 30px 0px;
-    font-size: 28px;
-    line-height: 40px;
-    font-weight: 600;
-  }
-
   & > p {
     text-align: center;
-    margin: 30px 0 30px 0;
+    margin: 100px 10px 20px 10px;
     line-height: 30px;
     font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
   }
 }
