@@ -30,6 +30,27 @@ img {
   justify-content: space-between;
   flex-direction: column;
 }
+
+.front--quest,
+.back--quest {
+  justify-content: flex-start;
+}
+
+.front::after,
+.back::after {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  width: 25%;
+  height: 26%;
+  background: url('../../assets/logo-bobby.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.95; /* 30% opacity */
+  z-index: 2;
+}
 /* Style pour le bouton */
 
 .container-button {

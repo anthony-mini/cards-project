@@ -42,7 +42,7 @@ export default function CodeQr() {
           {randomQuest.Difficulte}
         </div>
         <div
-          className={`container-card front ${
+          className={`container-card front front--quest ${
             randomQuest.image ? '' : 'without-image'
           }`}
         >
@@ -91,7 +91,7 @@ export default function CodeQr() {
           </div>
         </div>
         <div
-          className={`container-card back ${
+          className={`container-card back back--quest ${
             randomQuest.image ? '' : 'without-image'
           }`}
         >
